@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Intelligence Checklist</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    
+    h1 {
+        color: #333;
+    }
+    
+    #fileInput {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    #checklist {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .checklist-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .checklist-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .checklist-item input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    
+    .checklist-item label {
+        font-size: 16px;
+        color: #555;
+    }
+    </style>
+</head>
+<body>
+    <h1>Upload Image for Syllabus</h1>
+    <input type="file" name="file" id="fileInput">
+   
+    <div id="checklist"></div>
+
+    <script src="cons.js" type="module"></script> <!-- Load the bundled JavaScript file -->
+</body>
+</html>
